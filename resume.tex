@@ -1,0 +1,86 @@
+% LaTeX file for resume 
+% This file uses the resume document class (res.cls)
+
+\documentclass{res} 
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+\setlength{\textheight}{9.5in} % increase text height to fit on 1-page 
+
+\begin{document} 
+
+\name{Ronny Brzezinski\\[12pt]}     % the \\[12pt] adds a blank
+				        % line after name
+\address{\bf  1611 W. Division st. Apt 1106 \\Chicago, IL 60622 \\(857) 407-8840 \\ ronbrz@protonmail.ch}
+
+\begin{resume}
+\section{EXPERIENCE}
+   \vspace{-0.1in}
+   \begin{tabbing}
+   \hspace{2.3in}\= \hspace{2.6in}\= \kill % set up two tab positions
+   {\bf Back End Web Developer Co-op} \>Clypd     \> Jan 2016 - June 2016\\
+   \>Somerville, MA
+   \end{tabbing}
+   \begin{itemize} \itemsep -2pt
+   \item Feature lead on project tasked with writing a tool to run workers. Responsibilities
+     included writing, scheduling, troubleshooting, and resolving tickets to facilitate project
+     implementation.
+   \item Built features for the Clypd website using Go and SQL. These features include
+     authorization middleware, new endpoints, and workers to help gather or synchronize data
+     regularly.
+   \item Successfully functioned and thrived within an Agile workflow, effectively communicating
+     with my team during daily stand-ups to ensure transparent communication resulting in
+     increased team efficiency. 
+   \item Utilized Git and Github alongside code reviews to ensure high quality code merges with
+     master branch.
+   \end{itemize}
+
+   \begin{tabbing}
+   \hspace{2.3in}\= \hspace{2.6in}\= \kill % set up two tab positions
+    {\bf Software Developer Co-op} \>Novartis \> Jan 2013 - June 2013\\
+    \>Cambridge, MA
+   \end{tabbing}%\vspace{-10pt}
+   \begin{itemize} \itemsep -2pt
+   \item Created and oversaw running Python script to migrate scientific data from excel files
+     to database.
+   \item Implemented features and fixed bugs on Novartis intranet website using jQuery.
+   \end{itemize}
+\vspace{-.1in}
+\section{Computer Skills}
+Languages:  Python, JavaScript, Java, Go, SQL, and Haskell \\
+Software: Emacs, Windows, Linux, Git  \\
+Other Technologies:  HTML, CSS,  SASS
+\section{Personal projects}
+        \centerline{https://github.com/ronbrz}\vspace{-.1in} 
+        {\bf SMS Get Directions service} Weekend project that allows user to text an address
+        and recieve directions. Developed service using Haskell. The use case for this project
+        was based on users who are able to text but not access the internet on their device. \\
+        {\bf Sublet finder website} Participated in hackathon at Paypal, building a project
+        that helps connect subletters with those who would like to sublet. Built website using
+        Ruby on Rails, the frontend was built using Bootstrap.
+
+\section{EDUCATION}
+Northeastern University, Boston, MA \\
+Candidate for Bachelor of Science, Computer Science   \\
+\begin{center} \vspace{-.3in}
+  {\bf Relevent Coursework} \\
+  Algorithms and Data \\
+  Theory of Computation \\
+  Programming Languages \\
+  Object Oriented Design \\
+\end{center}
+
+\vspace{-.1in}
+\section{VOLUNTEER WORK}
+\vspace{-0.1in}
+\begin{tabbing}
+  \hspace{2.3in}\= \hspace{2.6in}\= \kill
+  FreeGeekChicago \>\> Aug 2015 - Dec 2015
+\end{tabbing}
+\begin{itemize} \itemsep -2pt
+\item Tore down donated computers for viable parts.
+\item Built computers using donated parts.
+  \item Installed Linux on thes computers, providing a way for people to be able to buy a very inexpensive functional computer.
+\end{itemize}
+
+\end{resume}
+\end{document}
