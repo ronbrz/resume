@@ -1,11 +1,11 @@
 % LaTeX file for resume 
 % This file uses the resume document class (res.cls)
 
-\documentclass{res} 
+\documentclass{res}
 %\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
 %\usepackage{newcent}   % uses new century schoolbook postscript font 
-\setlength{\textheight}{9.5in} % increase text height to fit on 1-page 
-
+\setlength{\textheight}{10in}
+\setlength{\topmargin}{-20pt}
 \begin{document} 
 
 \name{Ronny Brzezinski\\[12pt]}     % the \\[12pt] adds a blank
@@ -14,26 +14,40 @@
 
 \begin{resume}
 \section{EXPERIENCE}
-   \vspace{-0.1in}
-   \begin{tabbing}
-   \hspace{2.3in}\= \hspace{2.6in}\= \kill % set up two tab positions
-   {\bf Back End Web Developer Co-op} \>Clypd     \> Jan 2016 - June 2016\\
-   \>Somerville, MA
-   \end{tabbing}
-   \begin{itemize} \itemsep -2pt
-   \item Feature lead on project tasked with writing a tool to run workers. Responsibilities
-     included writing, scheduling, troubleshooting, and resolving tickets to facilitate project
-     implementation.
-   \item Built features for the Clypd website using Go and SQL. These features include
-     authorization middleware, new endpoints, and workers to help gather or synchronize data
-     regularly.
-   \item Successfully functioned and thrived within an Agile workflow, effectively communicating
-     with my team during daily stand-ups to ensure transparent communication resulting in
-     increased team efficiency. 
-   \item Utilized Git and Github alongside code reviews to ensure high quality code merges with
-     master branch.
-   \end{itemize}
-
+\vspace{0in}
+\begin{tabbing}
+  \hspace{2.3in}\= \hspace{2.6in}\= \kill % set up two tab positions
+  {\bf Software Developer} \>Percipia     \> Feb 2018 - Current\\
+  \>Chicago, IL
+\end{tabbing}
+\begin{itemize} \itemsep -2pt
+\item Technical lead and developer for company website, percipia.com. Worked closely
+  with designer to bring artistic vision to reality using HTML, Sass, and Go.
+\item Built integrations for various third party services for our in room Android application in Java.
+\item Extend and upkeep our custom CMS solution written in PHP. Added several features, including
+  the ability for hotels to manage their restaurant offerings, and adding functionality allowing guests to
+  more easily order food to their room.
+\item System administration duties, from ensuring our sites our running correctly to helping our clients
+  with issues they may be having with their Asterisk VOIP phone system.
+\end{itemize}
+\vspace{-.2in}
+\begin{tabbing}
+  \hspace{2.3in}\= \hspace{2.6in}\= \kill % set up two tab positions
+  {\bf Back End Web Developer Co-op} \>Clypd     \> Jan 2016 - June 2016\\
+  \>Somerville, MA
+\end{tabbing}
+\begin{itemize} \itemsep -2pt
+\item Feature lead on project tasked with writing a tool to run workers. Responsibilities
+  included writing, scheduling, troubleshooting, and resolving tickets to facilitate project
+  implementation.
+\item Built features for the Clypd website using Go and SQL. These features include
+  authorization middleware, new endpoints, and workers to help gather or synchronize data
+  regularly.
+\item Collaborated using an Agile workflow, ensuring communication and productivity
+\item Utilized Git and Github alongside code reviews to ensure high quality code merges with
+  master branch.
+\end{itemize}
+\vspace{-.2in}
    \begin{tabbing}
    \hspace{2.3in}\= \hspace{2.6in}\= \kill % set up two tab positions
     {\bf Software Developer Co-op} \>Novartis \> Jan 2013 - June 2013\\
@@ -44,7 +58,7 @@
      to database.
    \item Implemented features and fixed bugs on Novartis intranet website using jQuery.
    \end{itemize}
-\vspace{-.1in}
+\vspace{-.2in}
 \section{Computer Skills}
 Languages:  Python, JavaScript, Java, Go, SQL, and Haskell \\
 Software: Emacs, Windows, Linux, Git  \\
@@ -54,23 +68,8 @@ Other Technologies:  HTML, CSS,  SASS
         {\bf SMS Get Directions service} Weekend project that allows user to text an address
         and recieve directions. Developed service using Haskell. The use case for this project
         was based on users who are able to text but not access the internet on their device. \\
-        {\bf Sublet finder website} Participated in hackathon at Paypal, building a project
-        that helps connect subletters with those who would like to sublet. Built website using
-        Ruby on Rails, the frontend was built using Bootstrap.
 
-\section{EDUCATION}
-Northeastern University, Boston, MA \\
-Candidate for Bachelor of Science, Computer Science   \\
-\begin{center} \vspace{-.3in}
-  {\bf Relevent Coursework} \\
-  Algorithms and Data \\
-  Theory of Computation \\
-  Programming Languages \\
-  Object Oriented Design \\
-\end{center}
-
-\vspace{-.1in}
-\section{VOLUNTEER WORK}
+        \section{VOLUNTEER WORK}
 \vspace{-0.1in}
 \begin{tabbing}
   \hspace{2.3in}\= \hspace{2.6in}\= \kill
@@ -81,6 +80,9 @@ Candidate for Bachelor of Science, Computer Science   \\
 \item Built computers using donated parts.
   \item Installed Linux on thes computers, providing a way for people to be able to buy a very inexpensive functional computer.
 \end{itemize}
+        \section{EDUCATION}
+Northeastern University, Boston, MA \\
+Candidate for Bachelor of Science, Computer Science   \\
 
 \end{resume}
 \end{document}
